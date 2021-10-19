@@ -30,20 +30,27 @@
         <div class="col-12">
           <div id="app">
             <div class="row">
-              <div class="col-4 card p-4 " id="vone">Coffee <h2 id="priceone">Item Price: $2</h2> <button
-                  onclick="app.vendrController.pch1()"
-                  class="bg-primary text-dark text-center justify-content-center">Purchase</button></div>
-              <div class="col-4 card p-4 " id="vtwo">Cheetos <h2 id="price2">Item Price: $4</h2><button
-                  onclick="app.vendrController.pch2()"
-                  class="bg-primary text-dark text-center justify-content-center">Purchase</button></div>
-              <div class="col-4 card p-4 " id="vthree">Chicken <h2 id="price3">Item Price: $6</h2><button
-                  onclick="app.vendrController.pch3()"
-                  class="bg-primary text-dark text-center justify-content-center">Purchase</button></div>
+              <div class="col-4 card p-4 ">
+                <h1 id="vone">Coffee</h1>
+                <h2 id="priceone">Item Price: $2</h2> <button onclick="app.vendrController.pch1()"
+                  class="bg-primary text-dark text-center justify-content-center">Purchase</button>
+              </div>
+              <div class="col-4 card p-4 ">
+                <h1 id="vtwo">Cheetos</h1>
+                <h2 id="price2">Item Price: $4</h2><button onclick="app.vendrController.pch2()"
+                  class="bg-primary text-dark text-center justify-content-center">Purchase</button>
+              </div>
+              <div class="col-4 card p-4 ">
+                <h1 id="vthree">Chicken</h1>
+                <h2 id="price3">Item Price: $6</h2><button onclick="app.vendrController.pch3()"
+                  class="bg-primary text-dark text-center justify-content-center">Purchase</button>
+              </div>
             </div>
             <div class="row">
               <div class="col-6"><button class="btn bg-primary text-center"
                   onclick="app.vendrController.addChange()">Insert
-                  Quarter</button></div>
+                  Quarter</button><button class="btn bg-primary text-center"
+                  onclick="app.vendrController.addDollar()">Insert Dollar</button></div>
               <div class="col-3" id="dispcash">Your Money: $</div>
             </div>
           </div>

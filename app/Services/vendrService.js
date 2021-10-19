@@ -6,11 +6,16 @@ class VendrService {
 
   }
 
+  _addDollar() {
+    ProxyState.Money += 1.00
+  }
+
 
   pch1() {
     if (ProxyState.Money >= 2.0) {
       ProxyState.Money -= 2.0
     }
+    alert("You Bought Some Coffee")
     console.log("You Bought Some Coffee")
   }
 
@@ -18,6 +23,7 @@ class VendrService {
     if (ProxyState.Money >= 4.0) {
       ProxyState.Money -= 4.0
     }
+    alert('You Bought Some Cheetos')
     console.log("You Bought Some Cheetos")
   }
 
@@ -25,6 +31,7 @@ class VendrService {
     if (ProxyState.Money >= 6.0) {
       ProxyState.Money -= 6.0
     }
+    alert("You Bought Some Chicken (Gross!)")
     console.log("You Bought Some Chicken")
   }
 }

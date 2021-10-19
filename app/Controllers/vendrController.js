@@ -19,6 +19,10 @@ export class vendrController {
 
   }
 
+  addDollar() {
+    vendrservice._addDollar()
+  }
+
 
   pch1() {
     vendrservice.pch1()
