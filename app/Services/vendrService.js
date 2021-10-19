@@ -31,7 +31,7 @@ class VendrService {
     if (ProxyState.Money >= 6.0) {
       ProxyState.Money -= 6.0
     }
-    alert("You Bought Some Chicken (Gross!)")
+    alert("You Bought Some Chicken (Gross, don't eat that!)")
     console.log("You Bought Some Chicken")
   }
 }
